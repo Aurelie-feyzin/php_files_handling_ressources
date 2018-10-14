@@ -20,3 +20,9 @@ strong{
 .navbar-brand{
     height: auto;
 }
+
+.marge_left {
+    margin-left: 2em;
+    color: #7c9c59;
+    text-align: right;
+}
