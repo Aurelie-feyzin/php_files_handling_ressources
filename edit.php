@@ -22,9 +22,9 @@ $contain = $fileManager->editFile($nameFile);
 <?php endif ?>
 </h2>
 
-<form method="POST" action = edit.php?nameFile=<?php echo "$nameFile" ?> >
-    <textarea class="form-control" id="contain" rows="20" title="contain"><?php echo $contain ?></textarea>
-    <input type="hidden" id="file" class="form-control" title="file">
+<form method="POST" action ='edit.php?nameFile=<?php echo "$nameFile" ?>' >
+    <textarea class="form-control" id="contain" rows="20" name="contain"><?php echo $contain ?></textarea>
+    <input type="hidden" id="file" class="form-control" name="file">
             <button type="submit">Envoyer</button>
             <a class='pull-right btn' href="index.php" role="button">Retour</a>
 
